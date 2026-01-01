@@ -1,0 +1,26 @@
+# Core ML Libraries
+torch>=2.0.0
+transformers>=4.40.0
+sentence-transformers>=2.4.0
+datasets>=2.14.0
+accelerate>=0.25.0
+
+# Parameter-Efficient Fine-Tuning
+peft>=0.10.0
+trl>=0.8.0
+bitsandbytes>=0.43.0
+
+# Evaluation Metrics
+evaluate>=0.4.0
+sacrebleu>=2.3.0
+rouge-score>=0.1.2
+
+# Data Processing
+pandas>=2.0.0
+numpy<2.0.0  # Important: NumPy 2.x causes compatibility issues
+
+# Utilities
+huggingface-hub>=0.20.0
+
+# For Unsloth (not recommended due to dependency conflicts)
+# unsloth @ git+https://github.com/unslothai/unsloth.git

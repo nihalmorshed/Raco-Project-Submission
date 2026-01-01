@@ -16,7 +16,7 @@ This project fine-tunes Meta's LLaMA 3.1-8B-Instruct model on the Bengali Empath
 
 ### Actual Training Results
 - **Training Samples**: 4,000
-- **Final Loss**: 0.5285
+- **Average Training Loss**: 0.5285
 - **Training Time**: 581.7 minutes (~9.7 hours)
 - **Peak GPU Memory**: 14.162 GB
 - **Trainable Parameters**: 3,407,872 (0.0424%)
